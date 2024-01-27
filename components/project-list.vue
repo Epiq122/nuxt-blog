@@ -1,8 +1,8 @@
 <template>
   <div>Projects</div>
-  <section :if="pending">Loading....</section>
-  <section :else-if="error">Something went wrong try again......</section>
-  <section :else>Display the repos</section>
+  <section v-if="pending">Loading....</section>
+  <section v-else-if="error">Something went wrong try again......</section>
+  <section v-else>Display the repos</section>
 </template>
 
 <script setup>
