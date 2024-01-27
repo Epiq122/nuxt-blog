@@ -3,4 +3,8 @@
   <div></div>
 </template>
 
-<style scoped></style>
+<script setup>
+useHead({
+  title: 'About',
+});
+</script>
