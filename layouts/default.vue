@@ -15,6 +15,8 @@
 </template>
 
 <script setup>
+const colorMode = useColorMode();
+
 useHead({
   titleTemplate: '%s - Robert Gleason',
   link: [
