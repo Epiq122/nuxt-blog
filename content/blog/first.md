@@ -10,7 +10,7 @@ head:
     - name: 'author'
       content: 'NuxtLabs'
     - name: 'copyright'
-      content: '© 2022 NuxtLabs'
+      content: '© 2024 NuxtLabs'
     - name: 'og:title'
       content: 'First Post of The Rob Blog'
     - name: 'og:description'
