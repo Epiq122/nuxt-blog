@@ -11,6 +11,9 @@ import type { Style } from '#build/components';
       <li>
         <NuxtLink to="/projects" class="link">Projects</NuxtLink>
       </li>
+      <li>
+        <NuxtLink to="/blog" class="link">Blog</NuxtLink>
+      </li>
     </ul>
   </nav>
 </template>
@@ -20,3 +23,4 @@ import type { Style } from '#build/components';
   @apply p-1 hover:bg-gray-200;
 }
 </style>
+ß
